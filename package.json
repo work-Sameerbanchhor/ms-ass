@@ -1,0 +1,21 @@
+{
+  "name": "kalyan-smart-student-system",
+  "productName": "Kalyan Smart Student System",
+  "version": "1.0.0",
+  "description": "Student management system wrapper",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win"
+  },
+  "build": {
+    "appId": "com.kalyan.smartstudentsystem",
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "devDependencies": {
+    "electron": "^latest",
+    "electron-builder": "^latest"
+  }
+}
